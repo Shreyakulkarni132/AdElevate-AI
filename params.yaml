@@ -1,0 +1,25 @@
+base:
+  project: marketing_proposal
+
+data:
+  raw_data: ../data/raw
+  raw_data_processed: ../data/raw/raw_data_processed.csv
+  processed_data: ../data/processed
+  csv_file: ../data/raw/mlops_sample - fabdata.csv
+  trends_file: ../data/raw/mlops_sample - trends.csv
+
+processed_data:
+  train: ../data/processed/train/train.csv
+  test: ../data/processed/test/test.csv
+
+models:
+  multiple_regression: ../models/multiple_regression1.pkl
+
+data_split:
+  train_size: 0.8
+  test_size: 0.2
+
+trainable:
+  multiple_regression_train: True
+
+
